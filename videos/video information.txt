@@ -1,0 +1,2 @@
+En esta carpeta hay que agregar videos de hasta 5 Mb, con una resolusión de 1920x1440 pixeles, a 24 fps (minimo) y en formato mp4.
+Cada video debe estar enumerado del 1 al 9.
