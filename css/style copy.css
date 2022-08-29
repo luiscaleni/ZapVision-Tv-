@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    overflow: hidden;
+}
+
+.header{
+    /*margin-top: 30vh;*/
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+.grupo{
+    width: auto;
+    height: auto;
+    margin: 20vh auto;
+    position: absolute;
+    background-color: none;
+    display: flex;
+}
+/*
+.grupo{
+    width: auto;
+    height: auto;
+    margin: 0vh auto;
+    position: absolute;
+    background-color: blue;
+    display: flex;
+}*/
+
+
+.header_video{
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../img/tvfondo.jpg);
+}
+
+.header_video video {
+    width: 100%;
+    height: 100%;
+}
+
+.controlcss {
+    position: absolute;
+    margin:450px auto auto 1015px;
+    padding: 10px;
+    height: 240px;
+    width: 185px;
+    border-radius: 20px;
+    /*box-shadow: #ddd -5px 4px 0px;*/
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.controlcss p {
+    margin: 0px 20px auto 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+    background-color: none;
+    display: inline-block;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 12px;
+    color: #fff;
+    font-size: 22px;
+    border-radius: 20px;
+    border: auto;
+    background-color: rgb(27, 27, 83);
+}
+
+.power {
+    margin: 5px;
+    padding: 5px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(98, 98, 98);
+}
+
+.imgon{
+    width: 20px;
+    height: 22px;
+}
+
+.imgs{
+    width: 22px;
+    height: 22px;
+}
+
+.off {
+    margin: 5px;
+    padding: 5px 12px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: aqua;
+}
+
+button img{
+    margin-top: 2px;
+    margin-left: -4px;
+    width: 20px;
+    height: 20px;
+}
+
+@media (min-width:5700px){
+    button{
+        font-size: 17px;
+    }
+}
+
+@media (max-width:1700px){
+    button{
+        font-size: 17px;
+    }
+}
+
+/*
+.color-negro {
+    width: 300px;
+    height: 300px;
+    background-color: black;
+}
+*/
+.tv {
+    
+    width: 1255px;
+    height: 852px;
+    position: relative;
+    display: flex;
+}
+
+.tv img {
+    width: 1255px;/*1120px; 614px;*/
+    height: 852px;/*933px; 427px;*/
+    position: absolute;
+}
+/*
+.youtube_silencio {
+    margin: 30px 20px auto 70px;
+    padding: 20px auto 40px 0px;
+    width: 600px;
+    height: 350px;
+    background-color: #000;
+}
+*/
+.youtube {
+    margin: 50px 20px auto 70px;
+    padding: 20px auto 40px 0px;
+    width: 935px;
+    height: 750px;
+    background-image: url(../img/estatica.gif);
+}
+
+.youtube video {
+    margin: 14px auto auto -10px;
+    width: 970px;/*1000*/
+    height: 720px;/*720*/
+    background-image: none;
+}
+
+.loader{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/tvfondo.jpg);
+}
+
+.loaderblack{
+    position: fixed;
+    margin:50px auto auto 800px;
+    padding: 10px 20px;
+    width: 70px;
+    height: 70px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(36, 34, 32);
+    border:1px solid #fff;
+    
+    background: rgba(255, 255, 255, 0.493);/*url('images/pageLoader.gif') 50% 50% no-repeat rgb(249,249,249);*/
+    opacity: .8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
